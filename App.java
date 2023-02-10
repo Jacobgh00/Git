@@ -10,8 +10,14 @@ public class App {
         //del 1
         List<String> list = Arrays.asList("Jan Jensen", "Jens Hansen", "Leo Hansen", "Jens Jensen", "Jensine Larsen");
         String sub = "Jens";
-        int count = Opgave5.countDelStreng1(list,sub);
+        int count = Opgave5.countDelStrengIretation(list,sub);
         System.out.println("Count: " + count);
+
+        //Del 2
+        List<String> list2 = Arrays.asList("Jan Jensen", "Jens Hansen", "Leo Hansen", "Jens Jensen", "Jensine Larsen");
+        String sub2 = "Jens";
+        int count2 = Opgave5.countDelStrengRecursive(list2,sub2);
+        System.out.println("Count: " + count2);
 
 
     }

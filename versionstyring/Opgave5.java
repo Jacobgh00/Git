@@ -7,16 +7,16 @@ public class Opgave5 {
 
 //Lav metoden under anvendelse af iteration
 
-    public static int countDelStreng1(List<String> list, String sub) {
+    public static int countDelStrengIretation(List<String> list, String sub) {
         int count = 0;
         for (String s : list) {
-            count += countOccurrences(s,sub);
+            count += countOccurrencesIrretation(s,sub);
 
         }
         return count;
     }
 
-    private static int countOccurrences(String s, String sub) {
+    private static int countOccurrencesIrretation(String s, String sub) {
         int count = 0;
         int index = 0;
         while ((index = s.indexOf(sub, index)) != -1) {
@@ -27,7 +27,6 @@ public class Opgave5 {
     }
 
 //Lav metoden så der kigges på et element og der derefter kaldes rekursivt med resten af listen
-
 
 
 
