@@ -16,7 +16,7 @@ public class App {
         //Del 2
         List<String> list2 = Arrays.asList("Jan Jensen", "Jens Hansen", "Leo Hansen", "Jens Jensen", "Jensine Larsen");
         String sub2 = "Jens";
-        int count2 = Opgave5.countDelStrengRecursive(list2,sub2);
+        int count2 = Casper.countDelStrengRecursive(list2,sub2);
         System.out.println("Count: " + count2);
 
 
