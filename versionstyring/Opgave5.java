@@ -25,7 +25,7 @@ public class Opgave5 {
 
 
 
-    //Third option
+ //Lav metoden under anvendelse af del-løs og kombiner skabelonen
 
 
 
